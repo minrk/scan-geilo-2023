@@ -1,0 +1,23 @@
+channels:
+  - conda-forge
+dependencies:
+  # base env
+  - python=3.10
+  # mpi
+  - mpich
+  - mpi4py
+  # interactive
+  - ipyparallel
+  - jupyterlab
+  - ipywidgets
+
+  # docs
+  - jupyter-book
+
+  # applications to test with
+  - fenics-dolfinx
+  - matplotlib-base
+  - pandas
+
+  # compilers
+  - mpich-mpicxx
